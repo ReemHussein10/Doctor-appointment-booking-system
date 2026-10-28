@@ -1,0 +1,33 @@
+Doctor Appointment Booking System — Requirements
+=================================================
+
+Classification key:
+  F = Functional
+  NF = Non-functional
+
+Chosen value of N (for R4): N = 3
+  (A patient may have at most 3 upcoming appointments at any given time.
+   This keeps the system simple to demo and easy to test with the N limit.)
+
+
+Requirement  ID   Type   Description
+--------------------------------------------------------------------------------
+R1           R1   F      A patient can view the days and times when a doctor
+                         is available.
+
+R2           R2   F      A patient can book an appointment during an
+                         available time slot.
+
+R3           R3   F      A doctor can accept or decline an appointment request.
+
+R4           R4   F      A patient can have at most N upcoming appointments at
+                         any given time. (N = 3)
+
+R5           R5   NF     Patient medical data shall be accessible only to
+                         authorized staff.  (Security)
+
+R6           R6   NF     Available appointment times shall be displayed within
+                         2 seconds.  (Performance)
+
+R7           R7   NF     The application shall be usable on mobile phone
+                         screens.  (Usability / Portability)
